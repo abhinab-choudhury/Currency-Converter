@@ -625,7 +625,7 @@ public:
 		builder.append_query(U("from"), utility::conversions::to_string_t(from));
 		builder.append_query(U("amount"), utility::conversions::to_string_t(amount));
 
-		builder.append_query(U("apikey"), U("lwXtg0hjLJGqUSBbofEdCF72YIif5gY2"));
+		builder.append_query(U("apikey"), U("Enter you Key..."));
 
 		http_request request(methods::GET);
 		request.set_request_uri(builder.to_string());
